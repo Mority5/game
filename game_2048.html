@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>2048</title>
+    <meta http-equiv="X-UA-COMPATIBLE" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="css/game_2048.css">
+    <script src="js/game_2048.js"></script>
+</head>
+<body>
+<h1>2048</h1>
+<div class="score_and_reset">
+    <div>
+        <p class="score">历史最高分：</p><p class="score" id="highest_score"></p><br/>
+        <p class="score">您的得分：</p><p class="score" id="score">0</p>
+    </div>
+    <div>
+        <button class="btn" id="archive_btn">存档退出</button>
+        <button class="btn" id="reset_btn">重新开始</button>
+        <button class="btn" id="revoke_btn">撤销</button>
+    </div>
+</div>
+<div class="div">
+    <div class="button" id="button">
+        <div>
+            <button class="btn" id="start_btn">新游戏</button><br/>
+            <button class="btn" id="continue_btn">继续游戏</button><br/>
+            <button class="btn" id="explain_btn">游戏说明</button>
+        </div>
+    </div>
+    <div class="explain" id="explain">
+        <p>按方向键移动方格（你也可以点击下方显示键盘，按方向图片进行移动），当数值相同的方格相遇时会相加。</p><br/>
+        <button class="btn" id="return">返回</button>
+    </div>
+    <div class="lattice" id="div1">0</div>
+    <div class="lattice" id="div2">0</div>
+    <div class="lattice" id="div3">0</div>
+    <div class="lattice" id="div4">0</div>
+    <div class="lattice" id="div5">0</div>
+    <div class="lattice" id="div6">0</div>
+    <div class="lattice" id="div7">0</div>
+    <div class="lattice" id="div8">0</div>
+    <div class="lattice" id="div9">0</div>
+    <div class="lattice" id="div10">0</div>
+    <div class="lattice" id="div11">0</div>
+    <div class="lattice" id="div12">0</div>
+    <div class="lattice" id="div13">0</div>
+    <div class="lattice" id="div14">0</div>
+    <div class="lattice" id="div15">0</div>
+    <div class="lattice" id="div16">0</div>
+</div>
+<div class="keyboard">
+    <button id="disp_key">显示键盘</button>
+    <div class="key" id="key">
+        <button><img src="image/up.jpg" class="key_img" id="up" title="上" alt="上"></button><br/>
+        <button><img src="image/left.jpg" class="key_img" id="left" title="左" alt="左"></button>
+        <button><img src="image/down.jpg" class="key_img" id="down" title="下" alt="下"></button>
+        <button><img src="image/right.jpg" class="key_img" id="right" title="右" alt="右"></button>
+    </div>
+</div>
+</body>
+</html>

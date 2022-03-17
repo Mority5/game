@@ -1,0 +1,57 @@
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+.div{
+    background-color: #F7ACBC;
+    width: 470px;height: 450px;
+    margin: auto;
+    position: relative;
+}
+.lattice{
+    background-color: #FEEEED;
+    width: 100px;height: 100px; margin: 10px 0px 0px 10px;
+    display: inline-flex;
+    justify-content: center;   /*使div中文字水平居中*/
+    align-items: center;      /*使div中文字垂直居中*/
+    font-size: 40px;
+    /*display: block;*/
+}
+.button,.explain{
+    background-color:#F7ACBC; width: 300px; height: 150px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;  top: 170px;  left: 85px;
+}
+.explain{
+    display: none;
+}
+.btn{
+    width: 100px; height: 30px;
+    margin: 5px;
+}
+.keyboard{
+    width: 500px; height: 500px;
+    margin: 10px auto;
+    text-align: center;
+}
+.key{
+    text-align: center;
+    margin: 10px;
+    display: none;
+}
+.key_img{
+    width: 100px;height: 100px;
+}
+.score_and_reset{
+    display: flex;
+    width: 550px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.score{
+    display: inline;
+}
